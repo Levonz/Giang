@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">AddToCart</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="red_velvet">Red Velvet</string>
+    <string name="_199_000">199.000đ</string>
+    <string name="heart"><![CDATA[<3]]></string>
+</resources>
