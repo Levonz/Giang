@@ -27,14 +27,9 @@ public class ShopFragment extends Fragment implements ShopListAdapter.ShopInterf
     private ShopListAdapter shopListAdapter;
     private ShopViewModel shopViewModel;
 
-
-
     public ShopFragment() {
         // Required empty public constructor
     }
-
-
-
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
