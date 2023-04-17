@@ -5,4 +5,182 @@
     <string name="red_velvet">Red Velvet</string>
     <string name="_199_000">199.000đ</string>
     <string name="heart"><![CDATA[<3]]></string>
+    <string name="number">1</string>
+
+
+    <string name="null_string">Null</string>
+
+    <string name="test_string">Test String</string>
+
+    <string name="title_1">Sweet</string>
+
+    <string name="title_2">Bake shop</string>
+
+    <string name="username">Tên đăng nhập</string>
+
+    <string name="password">Mật khẩu</string>
+
+    <string name="repeat_password">Nhập lại mật khẩu</string>
+
+    <string name="login">Đăng nhập</string>
+
+    <string name="register">Đăng kí</string>
+
+    <string name="forgot_password">Quên mật khẩu ?</string>
+
+    <string name="login_with_facebook">Đăng nhập với Facebook</string>
+
+    <string name="login_with_google">Đăng nhập với Google</string>
+
+    <string name="exit">Thoát</string>
+
+    <string name="home">Trang chủ</string>
+
+    <string name="cart">Giỏ hàng</string>
+
+    <string name="item_menu">Danh mục</string>
+
+    <string name="order">Đơn hàng</string>
+
+    <string name="favourite_item">Ưa thích</string>
+
+    <string name="contact_us">Liên hệ</string>
+
+    <string name="search">Tìm kiếm</string>
+
+    <string name="best_sell">Bán chạy nhất</string>
+
+    <string name="this_week">Tuần này</string>
+
+    <string name="item_description">Thông tin sản phẩm</string>
+
+    <string name="pay">Thanh toán</string>
+
+    <string name="order_preparing">Đang giao</string>
+
+    <string name="order_delivering">Đang giao</string>
+
+    <string name="order_delivered">Đã giao</string>
+
+    <string name="order_again">Mua lại</string>
+
+    <string name="total">Tổng</string>
+
+    <string name="follow">Theo dõi</string>
+
+    <string name="orderID_title">Mã đơn hàng</string>
+
+    <string name="name">Tên</string>
+
+    <string name="title">Tiêu đề</string>
+
+    <string name="price">Giá thành</string>
+
+    <string name="description">Mô tả</string>
+
+    <string name="not_found_any_item">Không tìm thấy sản phẩm</string>
+
+    <string name="long_description">Mô tả con cặc, đụ má bánh biếc cái đầu lồn. </string>
+
+    <string name="add_to_cart">Thêm vào giỏ hàng</string>
+
+    <string name="delivery_address">Địa chỉ nhận hàng</string>
+
+    <string name="coupon_code">Mã giảm giá</string>
+
+    <string name="confirm">Xác nhận</string>
+
+    <string name="select">Chọn</string>
+
+    <string name="edit">Sửa</string>
+
+    <string name="email">Địa chỉ email</string>
+
+    <string name="email_not_found">Không có địa chỉ email</string>
+
+    <string name="phone">Số điện thoại</string>
+
+    <string name="phone_not_found">Không có số điện thoại</string>
+
+    <string name="address">Địa chỉ nhà</string>
+
+    <string name="address_not_found">Không có địa chỉ nhà</string>
+
+    <string name="order_description">Mô tả đơn hàng</string>
+
+    <string name="order_state">Trạng thái giao hàng</string>
+
+    <string name="order_confirmed">Đơn được xác nhận</string>
+
+    <string name="order_prepaired">Chuẩn bị xong</string>
+
+    <string name="order_start_delivery">Bắt đầu giao</string>
+
+    <string name="order_delivery_time">Thời gian dự kiến hoàn thành</string>
+
+    <!---->
+
+
+    <string name="cake">Bánh</string>
+
+    <string name="coffee">Cà phê</string>
+
+    <string name="hamburger">Hamburger</string>
+
+    <string name="fruit">Trái cây</string>
+
+    <string name="cake2">Bánh 2</string>
+
+    <string name="test_user_name">Lê Trường Giang</string>
+
+    <string name="test_user_email">| gianghn21@gmail.com</string>
+
+    <string name="account">Tài khoản</string>
+
+    <string name="payment">Phương thức thanh toán</string>
+
+    <string name="setting">Cài đặt</string>
+
+    <string name="help">Trợ giúp</string>
+
+    <string name="logout">Đăng xuất</string>
+
+    <string name="added_payment_method">Các phương thức thanh toán hiện có</string>
+
+    <string name="add_new_payment_method">Thêm phương thức thanh toán</string>
+
+    <string name="add_bank_card">Thêm thẻ ngân hàng</string>
+
+    <string name="add_momo_ewallet">Thêm tài khoản Momo</string>
+
+    <string name="add_zalo_pay">Thêm ví Zalo Pay</string>
+
+    <string name="input_OTP">Nhập mã OTP</string>
+
+    <string name="change_password">Đổi mật khẩu</string>
+
+    <!---->
+    <!-- th_ng_tin_s_n_ph_m strings -->
+
+    <string name="ek_img_content">ExportKit Image</string>
+
+    <string name="_th_m_v_o_gi__h_ng_string">Thm vo gi hng</string>
+
+    <string name="black_forest_string">Black Forest</string>
+
+    <string name="_185_610__string">185.610</string>
+
+    <string name="black_forest_g_teau_hay_black_forest_cake_l__m_t_lo_i_b_nh_x_p_s__c__la_v_i_nh_n_anh___o___m____d_a_tr_n_m_n_tr_ng_mi_ng_schwarzw_lder_kirschtorte_c_a___c__ngh_a__en_l___m_n_anh___o_r_ng__en___th_ng_th__ng__black_forest_gateau_bao_g_m_nhi_u_l_p_b_nh_b_ng_lan_s__c__la_k_p_v_i_kem___nh_b_ng_v__qu__anh___o__string">Black Forest gteau hay Black Forest cakel mt loi bnh xp s c la vi nhn anh o m da trn mn trng ming SchwarzwlderKirschtorte ca c, ngha en l "Mn anh o rng en". Thng thng, Black Forest gateau bao gm nhiu lp bnh bng lan s c la kp vi kem nh bng v qu anh o.</string>
+
+    <string name="m__t__string">M t</string>
+
+    <string name="___string">-</string>
+
+    <string name="_1_string">1</string>
+
+    <string name="___ek1_string">+</string>
+
+    <string name="_269_000__string">269.000</string>
+
+    <string name="__69__string">-69%</string>
 </resources>

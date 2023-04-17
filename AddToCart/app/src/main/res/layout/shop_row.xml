@@ -10,7 +10,7 @@
 
     <FrameLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="wrap_content">
 
         <ImageView
             android:id="@+id/outSideImageView"
@@ -18,7 +18,9 @@
             android:layout_height="170dp"
             android:layout_gravity="top|center"
             android:scaleType="fitCenter"
-            app:srcCompat="@drawable/rectangle_4170_shape" />
+            app:srcCompat="@drawable/rectangle_4170_shape"
+
+            />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -31,7 +33,7 @@
                 android:layout_height="140dp"
                 android:layout_gravity="top|center"
                 android:scaleType="fitCenter"
-                app:srcCompat="@drawable/redvelvet" />
+                android:productImage="@{product.imageUrl}" />
 
             <TextView
                 android:id="@+id/productNameTextView"

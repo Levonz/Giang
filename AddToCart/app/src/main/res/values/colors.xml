@@ -8,6 +8,31 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
 
+    <color name="background_color">#FFFFFF</color>
+
+    <color name="mainui_sidebar_color">#F7F7F7</color>
+
+    <color name="blocker_color">#A6000000</color>
+
+    <color name="color_white">#FFFFFF</color>
+
+    <color name="color_black">#000000</color>
+
+    <color name="color_brown">#574143</color>
+
+    <color name="color_white_pink">#FFF2F5</color>
+
+    <color name="color_dark_pink">#FF5874</color>
+
+    <color name="text_white">#FFFFFF</color>
+
+    <color name="text_black">#000000</color>
+
+    <color name="text_brown">#574143</color>
+
+    <color name="text_white_pink">#FFF2F5</color>
+
+    <color name="text_dark_pink">#FF5874</color>
     <!-- t_m_ki_m colors -->
 
 
@@ -15,4 +40,22 @@
     <color name="rectangle_4170_color">#FFF6F7</color>
     <color name="black_forest_color">#FF647F</color>
     <color name="black_forest_ek1_color">#574143</color>
+
+    <!-- th_ng_tin_s_n_ph_m colors -->
+
+
+    <color name="colorPrimary">#008577</color>
+
+    <color name="colorPrimaryDark">#00574B</color>
+
+    <color name="colorAccent">#D81B60</color>
+
+
+    <color name="_bg__th_ng_tin_s_n_ph_m_color">#FFFFFF</color>
+
+    <color name="rectangle_34_color">#574143</color>
+
+    <color name="_th_m_v_o_gi__h_ng_color">#FFF6F7</color>
+
+    <color name="black_forest_g_teau_hay_black_forest_cake_l__m_t_lo_i_b_nh_x_p_s__c__la_v_i_nh_n_anh___o___m____d_a_tr_n_m_n_tr_ng_mi_ng_schwarzw_lder_kirschtorte_c_a___c__ngh_a__en_l___m_n_anh___o_r_ng__en___th_ng_th__ng__black_forest_gateau_bao_g_m_nhi_u_l_p_b_nh_b_ng_lan_s__c__la_k_p_v_i_kem___nh_b_ng_v__qu__anh___o__color">#FF647F</color>
 </resources>

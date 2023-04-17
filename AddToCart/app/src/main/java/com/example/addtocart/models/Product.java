@@ -87,4 +87,11 @@ public class Product {
             return oldItem.equals(newItem);
         }
     };
+    @BindingAdapter("android:productImage")
+    public static void loadImage(ImageView imageView, String imageUrl){
+        Glide.with(imageView)
+                .load(imageUrl)
+                .fitCenter()
+                .into(imageView);
+    }
 }
