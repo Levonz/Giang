@@ -1,5 +1,6 @@
 package com.example.addtocart.views;
 
+import android.content.SharedPreferences;
 import android.os.Bundle;
 
 import androidx.annotation.NonNull;
@@ -14,12 +15,14 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ToggleButton;
 
 import com.example.addtocart.R;
 import com.example.addtocart.adapters.ShopListAdapter;
 import com.example.addtocart.databinding.FragmentShopBinding;
 import com.example.addtocart.models.Product;
 import com.example.addtocart.viewmodel.ShopViewModel;
+import com.google.android.material.snackbar.Snackbar;
 
 import java.util.List;
 
@@ -57,16 +60,24 @@ public class ShopFragment extends Fragment implements ShopListAdapter.ShopInterf
 
         navController = Navigation.findNavController(view);
     }
+    private SharedPreferences dataStore;
 
     @Override
     public void addItem(Product product) {
         boolean isAdded = shopViewModel.addItemToCart(product);
-        Log.d(TAG, "addItem: " + product.getName() + isAdded);
+        if (isAdded) {
+            Snackbar.make(requireView(), product.getName() + " liked",Snackbar.LENGTH_LONG)
+                    .show();
+        }else{
+            Snackbar.make(requireView(), "already liked",Snackbar.LENGTH_LONG)
+                    .show();
+
+        }
     }
 
     @Override
     public void onItemClick(Product product) {
-        
+
         shopViewModel.setProduct(product);
         navController.navigate(R.id.action_shopFragment_to_productDetailFragment);
     }

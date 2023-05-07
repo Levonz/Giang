@@ -56,14 +56,16 @@
                 android:layout_gravity="center"
                 android:text="@{String.valueOf(product.price) + 'đ'}" />
 
-            <Button
+            <ToggleButton
                 android:id="@+id/likeButton"
-                style="@style/Widget.Material3.Button.TextButton"
-                android:layout_width="wrap_content"
+                android:layout_width="50dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:text="@string/heart"
-                android:textAppearance="@style/TextAppearance.MaterialComponents.Caption" />
+                android:textOn=""
+                android:textOff=""
+                android:enabled="@{product.available}"
+                android:background="@drawable/toggle_selector"
+                android:onClick="@{() -> shopInterface.addItem(product)}"/>
 
         </LinearLayout>
 

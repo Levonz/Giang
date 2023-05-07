@@ -22,13 +22,13 @@ public class ShopRepo {
     }
     private void loadProducts() {
         List<Product> productList = new ArrayList<>();
-        productList.add(new Product(UUID.randomUUID().toString(),"Red Velvet", 199000, "https://imgtr.ee/images/2023/04/10/nQASc.png"));
-        productList.add(new Product(UUID.randomUUID().toString(),"Black Forest", 269000, "https://imgtr.ee/images/2023/04/17/yiTZq.png"));
-        productList.add(new Product(UUID.randomUUID().toString(),"RedVelvet", 199, "https://imgtr.ee/images/2023/04/17/yiTZq.png"));
-        productList.add(new Product(UUID.randomUUID().toString(),"RedVelvet", 199, "https://imgtr.ee/images/2023/04/10/nQASc.png"));
-        productList.add(new Product(UUID.randomUUID().toString(),"RedVelvet", 199, "https://imgtr.ee/images/2023/04/10/nQASc.png"));
-        productList.add(new Product(UUID.randomUUID().toString(),"RedVelvet", 199, "https://imgtr.ee/images/2023/04/10/nQASc.png"));
-        productList.add(new Product(UUID.randomUUID().toString(),"RedVelvet", 199, "https://imgtr.ee/images/2023/04/10/nQASc.png"));
+        productList.add(new Product(UUID.randomUUID().toString(),"Red Velvet", 199000,true, "https://imgtr.ee/images/2023/04/10/nQASc.png"));
+        productList.add(new Product(UUID.randomUUID().toString(),"Black Forest", 269000,true, "https://imgtr.ee/images/2023/04/17/yiTZq.png"));
+        productList.add(new Product(UUID.randomUUID().toString(),"RedVelvet", 199, true,"https://imgtr.ee/images/2023/04/17/yiTZq.png"));
+        productList.add(new Product(UUID.randomUUID().toString(),"RedVelvet", 199, true,"https://imgtr.ee/images/2023/04/10/nQASc.png"));
+        productList.add(new Product(UUID.randomUUID().toString(),"RedVelvet", 199, true,"https://imgtr.ee/images/2023/04/10/nQASc.png"));
+        productList.add(new Product(UUID.randomUUID().toString(),"RedVelvet", 199, true,"https://imgtr.ee/images/2023/04/10/nQASc.png"));
+        productList.add(new Product(UUID.randomUUID().toString(),"RedVelvet", 199, true,"https://imgtr.ee/images/2023/04/10/nQASc.png"));
         mutableProductList.setValue(productList);
     }
 }

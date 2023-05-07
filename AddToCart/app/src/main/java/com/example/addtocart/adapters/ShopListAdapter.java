@@ -46,5 +46,7 @@ public class ShopListAdapter extends ListAdapter<Product, ShopListAdapter.shopVi
     public interface ShopInterface {
         void addItem(Product product);
         void onItemClick(Product product);
+
+
     }
 }

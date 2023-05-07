@@ -13,8 +13,13 @@ import com.example.addtocart.databinding.CartRowBinding;
 import com.example.addtocart.models.CartItem;
 
 public class CartListAdapter extends ListAdapter<CartItem, CartListAdapter.CartVH> {
-    public CartListAdapter() {
+
+
+    private CartInterface cartInterface;
+    public CartListAdapter(CartInterface cartInterface) {
+
         super(CartItem.itemCallback);
+        this.cartInterface = cartInterface;
     }
 
     @NonNull
@@ -38,6 +43,18 @@ public class CartListAdapter extends ListAdapter<CartItem, CartListAdapter.CartV
         public CartVH(@NonNull CartRowBinding cartRowBinding) {
             super(cartRowBinding.getRoot());
             this.cartRowBinding = cartRowBinding;
+
+            cartRowBinding.likedButton.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    cartInterface.deleteItem(getItem(getAdapterPosition()));
+                }
+            });
         }
+    }
+
+    public interface CartInterface{
+        void deleteItem(CartItem cartItem);
+
     }
 }
